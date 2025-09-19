@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+</head>
+
+<body>
+    <!-- Simple HTML Table-->
+    <table border="1">
+        <tr>
+            <th>Student</th>
+            <th>Grade</th>
+            <th>Subject</th>
+
+        </tr>
+        <tr>
+            <td>Nate</td>
+            <td>C+</td>
+            <td>CompSci</td>
+        </tr>
+        <tr>
+            <td>Alex</td>
+            <td>A+++</td>
+            <td>Chemistry</td>
+        </tr>
+    </table>
+    <br>
+    <!---Emmet Shortcuts for a contact table  ---->
+    <!-- table>thead>tr>th*3-->
+    <table border="2">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <!--Tbody>tr*2>td*3-->
+        <Tbody>
+            <tr>
+                <td>John Smith</td>
+                <td>(555)673-6767</td>
+                <td>John.smith@yahoo.com</td>
+            </tr>
+            <tr>
+                <td>Jane Doe</td>
+                <td>(676)444-4445</td>
+                <td>Jane@jane.com</td>
+            </tr>
+        </Tbody>
+    </table>
+
+    <!---ROWspan and colspan-->
+    <br>
+    <table border="4">
+        <tr>
+            <th rowspan="2"> Name</th>
+            <th>Art</th>
+            <th>Science</th>
+        </tr>
+        <tr>
+            <td>90</td>
+            <td>100</td>
+        </tr>
+    </table>
+
+    <br>
+    <table border="1">
+        <tr>
+            <th colspan="2"> Name </th>
+            <th>Age </th>
+        </tr>
+        <tr>
+            <td>First</td>
+            <td>Last</td>
+            <td>14</td>
+        </tr>
+    </table>
+</body>
+
+</html>
